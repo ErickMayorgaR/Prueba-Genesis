@@ -1,0 +1,71 @@
+# ========================================
+# GITIGNORE - Backend .NET API
+# ========================================
+
+# ==================== Build ====================
+bin/
+obj/
+out/
+build/
+publish/
+artifacts/
+
+# ==================== Visual Studio ====================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.csproj.user
+
+# ==================== Rider ====================
+.idea/
+*.sln.iml
+
+# ==================== NuGet ====================
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+
+# ==================== .NET Core ====================
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# ==================== User Secrets ====================
+secrets.json
+
+# ==================== ASP.NET ====================
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+!appsettings.json
+
+# ==================== Entity Framework ====================
+*.mdf
+*.ldf
+*.ndf
+
+# ==================== Test Results ====================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# ==================== Misc ====================
+*.cache
+*.log
+*.tmp
+ClientApp/node_modules/
+wwwroot/
+
+# ==================== Docker ====================
+**/docker-compose.override.yml
